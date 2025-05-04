@@ -106,7 +106,7 @@ int main() {
         cout << "1. Add Employee\n";
         cout << "2. Display Employees\n";
         cout << "3. Search Employee\n";
-        cout << "4. Update Employee\n";  // New Option
+        cout << "4. Update Employee\n";  
         cout << "5. Delete Employee\n";
         cout << "6. Exit\n";
         cout << "Enter your choice: ";
@@ -115,7 +115,7 @@ int main() {
             case 1: addEmployee(); break;
             case 2: displayEmployees(); break;
             case 3: searchEmployee(); break;
-            case 4: updateEmployee(); break; // New Case
+            case 4: updateEmployee(); break; 
             case 5: deleteEmployee(); break;
             case 6: cout << "Exiting program.\n"; break;
             default: cout << "Invalid choice. Try again.\n";
