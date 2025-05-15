@@ -24,7 +24,7 @@ void addEmployee() {
         cout << "Error: Employee ID already exists!\n";
         return;
     }
-    cin.ignore(); // clear newline
+    cin.ignore(); 
     cout << "Enter Employee Name: ";
     getline(cin, emp.name);
     cout << "Enter Department: ";
